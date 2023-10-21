@@ -1,48 +1,78 @@
+@font-face {
+    font-family: "Endless Sunrise" ;
+    src: url("EndlessSunriseRegular.otf")
+}
+
+@font-face {
+    font-family: "Endless Sunrise Extra";
+    src: url("RoundControl-Regular.otf");
+}
+
+html {
+    background-color: black;
+}
+
 body {
-width: 500px;
-margin: 10px;
-background-color: lightgray;
-
-
-}
-
-img{
     display: block;
-    padding: 10px;
     margin: auto;
-    width: 400px;
+    width: 100%;
+
+    background-size: cover;
 }
 
-h1{
-    text-align:center;
-    background-color: yellow;
-    width: 50%;
-    padding: 5px;
-    margin: auto;
-    
+h2 {
+    background-color: #3399EE;
+
+    margin:auto;
+    width: fit-content;
+
+    padding: 10px 40px;
+
+    font-family: "Endless Sunrise";
+    font-size: 60px;
 }
 
 
 
+p{
+    text-align: center;
+    font-family: 'Endless Sunrise Extra';
+    line-height: 1;
+    margin: 10px 15%;
+}
 
 ul {
-    
-    float: left;
+    display: block;
+    margin: 10px auto 30px;
+
+    background-color: #FF9999;
+
+    width: fit-content;
+    padding: 5px 25px;
+
+}
+
+#portrait {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+    border: solid #FF9999 10px;
+
+}
+
+li {
+    font-family: 'Round Control Regular';
+}
+
+section, address {
+    border: dashed #555555 3px;
+    margin: 20px auto;
     padding: 20px;
-    
+    background-color: #e2b8e6;
+    width: fit-content;
+    max-width: 90%;
 }
 
-#interests {
-    text-align: left;
-    background-color: red;
-    width: fit-content;
-    padding:5px 20px;
-}
-
-#facts
-{
-    text-align: right;
-    background-color: #0088FF;
-    width: fit-content;
-    padding: 5px 20px;    
+address > p {
+    margin: 1px;
 }

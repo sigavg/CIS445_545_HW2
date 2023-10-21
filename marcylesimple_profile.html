@@ -6,22 +6,76 @@
     <title>Marcy's Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    <script src="script.js"></script>
 </head>
-<body>
-    <img src="portrait.jpg" alt="portrait">
-    <h1><strong>Marcy Lesimple</strong></h1>
 
-    <div class="float">
+<body id="bod">
+
+    <section id="switchsection">
+        <button id="switch" onclick="turnon()"><img id="sw" src="offswitch.jpg"></button>
+    </section>
+
+    <div id="content" style="display: none;">
+    <section id="picture">
+        <h2>Marcy Lesimple</h2>
+        <img src="portrait.jpg" alt="portrait" id="portrait">
+    </section>
+
+    <section id="profile">
+        <h2>Profile</h2>
+
         <ul id="interests"><strong>Interests</strong>
             <li>Fencing</li>
             <li>Computer Networks</li>
             <li>Science Fiction</li>
         </ul>
-        <ul id="facts" dir="rtl"><strong>Facts</strong>
+
+        <ul id="facts"><strong>Facts</strong>
             <li>Attends Bradley University</li>
             <li>CIS Major</li>
             <li>President of Fencing Club</li>
         </ul>
+    </section>
+
+
+    <section id="reflection">
+        <h2>Reflection</h2>
+        <p>I understand that I am a quick learner, but I often rely too heavily on that. In order to be successful, I must make a greater effort to apply myself.</p>
+        <p>I struggle with making goals, but I have a few in the long-term:</p>
+        <ul>
+            <li>Graduate from college</li>
+            <li>Improve my time management skills</li>
+            <li>Find a job that I can enjoy</li>
+        </ul>
+    </section>
+
+
+    <section id="showcase">
+        <h2>Showcase</h2>
+        <ul>
+            <li>Nationally Rated Fencer (E2020)</li>
+        </ul>
+    </section>
+
+
+    <section id="qualifications">
+        <h2>Qualifications</h2>
+        <ul id="qual_list">
+            <li>Competent in both front-end and back-end programming languages</li>
+            <li>Professional working French</li>
+            <li>Effective when working in a group or individually</li>
+            <li>Computer literate</li>
+
+        </ul>
+    </section>
+
+
+    <address>
+        <h2>Contact Info:</h2>
+        <p>Marcy Lesimple</p>
+        <p>Email: <a href="mailto:llesimple@mail.bradley.edu">llesimple@mail.bradley.edu</a></p>
+    </address>
+
     </div>
 </body>
 </html>
